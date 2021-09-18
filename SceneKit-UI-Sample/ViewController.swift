@@ -71,6 +71,10 @@ class ViewController: UICollectionViewController {
             let vc2 = Sample2ViewController.instantiate()
             navigationController?.pushViewController(vc2, animated: true)
         }
+        else if indexPath.row == 2 {
+            let vc3 = Sample3ViewController.instantiate()
+            navigationController?.pushViewController(vc3, animated: true)
+        }
     }
 }
 
