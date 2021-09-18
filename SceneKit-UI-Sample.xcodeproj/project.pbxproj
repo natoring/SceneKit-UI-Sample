@@ -24,6 +24,9 @@
 		55707D5726F61D3E00BD8907 /* Sample3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55707D5626F61D3E00BD8907 /* Sample3ViewController.swift */; };
 		55707D5926F61D9800BD8907 /* Sample3ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55707D5826F61D9800BD8907 /* Sample3ViewController.storyboard */; };
 		55707D5B26F61E1500BD8907 /* GlitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55707D5A26F61E1500BD8907 /* GlitterView.swift */; };
+		55707D5E26F6396F00BD8907 /* Sample4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55707D5D26F6396F00BD8907 /* Sample4ViewController.swift */; };
+		55707D6226F64FF800BD8907 /* StickerInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55707D6126F64FF800BD8907 /* StickerInteraction.swift */; };
+		55707D6426F650A100BD8907 /* StickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55707D6326F650A100BD8907 /* StickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,9 @@
 		55707D5626F61D3E00BD8907 /* Sample3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample3ViewController.swift; sourceTree = "<group>"; };
 		55707D5826F61D9800BD8907 /* Sample3ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Sample3ViewController.storyboard; sourceTree = "<group>"; };
 		55707D5A26F61E1500BD8907 /* GlitterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlitterView.swift; sourceTree = "<group>"; };
+		55707D5D26F6396F00BD8907 /* Sample4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample4ViewController.swift; sourceTree = "<group>"; };
+		55707D6126F64FF800BD8907 /* StickerInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerInteraction.swift; sourceTree = "<group>"; };
+		55707D6326F650A100BD8907 /* StickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,7 @@
 				55707D4926F5EB3600BD8907 /* Sample1 */,
 				55707D4E26F5EFE400BD8907 /* Sample2 */,
 				55707D5526F61D2200BD8907 /* Sample3 */,
+				55707D5C26F6395700BD8907 /* Sample4 */,
 				55707D1D26F5A5C200BD8907 /* Main.storyboard */,
 				55707D2026F5A5C300BD8907 /* Assets.xcassets */,
 				55707D2226F5A5C300BD8907 /* LaunchScreen.storyboard */,
@@ -177,6 +184,16 @@
 				55707D5826F61D9800BD8907 /* Sample3ViewController.storyboard */,
 			);
 			path = Sample3;
+			sourceTree = "<group>";
+		};
+		55707D5C26F6395700BD8907 /* Sample4 */ = {
+			isa = PBXGroup;
+			children = (
+				55707D6326F650A100BD8907 /* StickerView.swift */,
+				55707D6126F64FF800BD8907 /* StickerInteraction.swift */,
+				55707D5D26F6396F00BD8907 /* Sample4ViewController.swift */,
+			);
+			path = Sample4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,8 +334,11 @@
 				55707D5B26F61E1500BD8907 /* GlitterView.swift in Sources */,
 				55707D5726F61D3E00BD8907 /* Sample3ViewController.swift in Sources */,
 				55707D4826F5BE6A00BD8907 /* Sample1ViewController.swift in Sources */,
+				55707D5E26F6396F00BD8907 /* Sample4ViewController.swift in Sources */,
 				55707D1C26F5A5C200BD8907 /* ViewController.swift in Sources */,
 				55707D5026F5EFFD00BD8907 /* Sample2ViewController.swift in Sources */,
+				55707D6426F650A100BD8907 /* StickerView.swift in Sources */,
+				55707D6226F64FF800BD8907 /* StickerInteraction.swift in Sources */,
 				55707D1826F5A5C200BD8907 /* AppDelegate.swift in Sources */,
 				55707D1A26F5A5C200BD8907 /* SceneDelegate.swift in Sources */,
 			);

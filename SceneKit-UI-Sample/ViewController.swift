@@ -53,7 +53,7 @@ class ViewController: UICollectionViewController {
         cell.subviews.forEach({ $0.removeFromSuperview() })
         if cell.subviews.isEmpty {
             let label = UILabel(frame: CGRect(x: 0, y: 0, width: cell.bounds.size.width, height: 100))
-            label.text = "Sample - \(indexPath.row)"
+            label.text = "Sample - \(indexPath.row + 1)"
             label.textAlignment = .center
             label.textColor = .white
             cell.contentView.addSubview(label)
@@ -74,6 +74,10 @@ class ViewController: UICollectionViewController {
         else if indexPath.row == 2 {
             let vc3 = Sample3ViewController.instantiate()
             navigationController?.pushViewController(vc3, animated: true)
+        }
+        else if indexPath.row == 3 {
+            let vc4 = Sample4ViewController()
+            navigationController?.pushViewController(vc4, animated: true)
         }
     }
 }
