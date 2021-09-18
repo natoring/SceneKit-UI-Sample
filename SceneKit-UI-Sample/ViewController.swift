@@ -60,5 +60,11 @@ class ViewController: UICollectionViewController {
         }
         return cell
     }
+
+    public override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+
+        let vc1 = Sample1ViewController.instantiate()
+        navigationController?.pushViewController(vc1, animated: true)
+    }
 }
 
