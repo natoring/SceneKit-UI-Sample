@@ -63,8 +63,14 @@ class ViewController: UICollectionViewController {
 
     public override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
 
-        let vc1 = Sample1ViewController.instantiate()
-        navigationController?.pushViewController(vc1, animated: true)
+        if indexPath.row == 0 {
+            let vc1 = Sample1ViewController.instantiate()
+            navigationController?.pushViewController(vc1, animated: true)
+        }
+        else if indexPath.row == 1 {
+            let vc2 = Sample2ViewController.instantiate()
+            navigationController?.pushViewController(vc2, animated: true)
+        }
     }
 }
 
